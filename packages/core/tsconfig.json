@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@workflow/cli": ["./src"],
+      "/package.json": ["./package.json"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./types/**/*",
+    "./package.json",
+    "../../types/**/*"
+  ],
+  "exclude": [
+  
+  ]
+}

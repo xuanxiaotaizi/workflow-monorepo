@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "baseUrl": "./",
+    "paths": {
+      "@workflow/utils": ["./src"],
+      "/package.json": ["./package.json"]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./types/**/*",
+    "./package.json",
+    "../../types/**/*"
+  ],
+  "exclude": [
+  
+  ]
+}

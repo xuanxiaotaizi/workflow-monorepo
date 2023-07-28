@@ -1,0 +1,34 @@
+{
+  "name": "workflow-monorepo",
+  "version": "1.0.0",
+  "description": "feflow",
+  "bin": {
+    "workflow": "bin/index.js"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanxiaotaizi/workflow-monorepo.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "xuanxiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuanxiaotaizi/workflow-monorepo/issues"
+  },
+  "homepage": "https://github.com/xuanxiaotaizi/workflow-monorepo#readme",
+  "dependencies": {
+    "lerna": "^7.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

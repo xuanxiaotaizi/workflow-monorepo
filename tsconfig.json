@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "baseUrl": "./",
+    "paths": {
+      "@workflow/core": ["./packages/core/src"],
+      "@workflow/utils": ["./packages/utils/src"]
+    }
+  },
+  "exclude": [
+    "./types/feflow.d.ts",
+  ]
+}
